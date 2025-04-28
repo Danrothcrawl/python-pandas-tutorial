@@ -58,15 +58,7 @@
 
 # data_frame = pd.read_csv('.learn/assets/pokemon_data.csv')
 # print(data_frame[['Name', 'Type 1']][0:10])
-# import pandas as pd
-
-# data_frame = pd.read_csv('.learn/assets/pokemon_data.csv')
-# print(data_frame.loc[data_frame['Attack'] > 80])
-# import pandas as pd
-
-# data_frame = pd.read_csv('.learn/assets/pokemon_data.csv')
-# print(len(data_frame.loc[data_frame['Legendary'] == True]))
 import pandas as pd
 
-data_frame = pd.read_csv('.learn/assets/us_baby_names_right.csv')
-print(data_frame.head(5))
+data_frame = pd.read_csv('.learn/assets/pokemon_data.csv')
+print(data_frame.loc[data_frame['Attack']>80)
